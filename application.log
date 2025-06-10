@@ -1,0 +1,89 @@
+[2025-06-04T12:33:16.3682799] Logging strategy changed to: FileLoggingStrategy
+[2025-06-04T12:33:19.7450312] GraphManager observed change in Graph: Node added: N2
+[2025-06-04T12:36:08.8285891] Application stopping...
+[2025-06-04T13:18:41.6091839] Logging strategy changed to: FileLoggingStrategy
+[2025-06-04T13:18:43.2581311] UIController: Interaction mode set to: NODE
+[2025-06-04T13:18:43.2590293] Error: Start or end node not selected for pathfinding.
+[2025-06-04T13:18:44.8469168] UIController: Canvas click received. Mode: NODE, Clicked on empty space.
+[2025-06-04T13:18:46.0354242] GraphManager observed change in Graph: Node added: N4
+[2025-06-04T13:18:46.0364266] UIController: Node created: N4
+[2025-06-04T13:18:47.0730094] UIController: Canvas click received. Mode: NODE, Clicked on empty space.
+[2025-06-04T13:18:47.9536434] GraphManager observed change in Graph: Node added: N5
+[2025-06-04T13:18:47.9546436] UIController: Node created: N5
+[2025-06-04T13:18:49.8543363] UIController: Mode SELECT_PATH: Click a START node, then an END node.
+[2025-06-04T13:18:49.8543363] UIController: Interaction mode set to: SELECT_PATH
+[2025-06-04T13:18:51.2954898] UIController: Canvas click received. Mode: SELECT_PATH, Clicked on empty space.
+[2025-06-04T13:18:51.2964904] UIController: SELECT_PATH - Clicked on empty space. Resetting path selection.
+[2025-06-04T13:18:51.2964904] Error: Start or end node not selected for pathfinding.
+[2025-06-04T13:18:51.9499964] Canvas: Started dragging node: N5
+[2025-06-04T13:18:52.7956831] Canvas: Finished dragging node: N5 to (572,8,-1,6)
+[2025-06-04T13:18:53.5729795] Canvas: Started dragging node: N5
+[2025-06-04T13:18:54.1915911] Canvas: Finished dragging node: N5 to (569,6,36,8)
+[2025-06-04T13:18:55.2278981] Canvas: Started dragging node: N5
+[2025-06-04T13:18:56.042861] Canvas: Finished dragging node: N5 to (542,4,39,2)
+[2025-06-04T13:18:58.1964056] Canvas: Started dragging node: N1
+[2025-06-04T13:18:58.3194052] Canvas: Finished dragging node: N1 to (376,8,44,8)
+[2025-06-04T13:18:58.3194052] UIController: Canvas click received. Mode: SELECT_PATH, Clicked Node: N1
+[2025-06-04T13:18:58.3204053] UIController: SELECT_PATH - START node selected: N1. Select END node.
+[2025-06-04T13:18:59.1725242] Canvas: Started dragging node: N5
+[2025-06-04T13:18:59.244839] Canvas: Finished dragging node: N5 to (542,4,39,2)
+[2025-06-04T13:18:59.2459362] UIController: Canvas click received. Mode: SELECT_PATH, Clicked Node: N5
+[2025-06-04T13:18:59.2459362] UIController: SELECT_PATH - END node selected: N5. Calculating path.
+[2025-06-04T13:18:59.2471439] UIController: Calculating shortest path from N1 to N5.
+[2025-06-04T13:18:59.24832] Calculating shortest path from N1 to N5 using DijkstraStrategy
+[2025-06-04T13:18:59.2488383] Path from N1 to N5 with DijkstraStrategy: No path found. Cost: Infinity. Time: 0 ms. Graph: 5 nodes, 3 edges.
+[2025-06-04T13:19:01.3486645] UIController: Interaction mode set to: EDGE
+[2025-06-04T13:19:01.3496658] Error: Start or end node not selected for pathfinding.
+[2025-06-04T13:19:02.2952751] Canvas: Started dragging edge from: N5
+[2025-06-04T13:19:02.4105016] Canvas: Edge drag cancelled or target is source/invalid.
+[2025-06-04T13:19:02.4115004] UIController: Canvas click received. Mode: EDGE, Clicked Node: N5
+[2025-06-04T13:19:02.4115004] UIController: First node for edge (click-mode) selected: N5
+[2025-06-04T13:19:03.2917848] Canvas: Started dragging node: N1
+[2025-06-04T13:19:03.3713295] Canvas: Finished dragging node: N1 to (376,8,44,8)
+[2025-06-04T13:19:03.3713295] UIController: Canvas click received. Mode: EDGE, Clicked Node: N1
+[2025-06-04T13:19:04.8069661] GraphManager observed change in Graph: Edge added: Edge{N5 -> N1, w=1.0}
+[2025-06-04T13:19:04.8079674] UIController: Edge created: Edge{N5 -> N1, w=1.0}
+[2025-06-04T13:19:05.6023689] Canvas: Started dragging edge from: N4
+[2025-06-04T13:19:05.6937526] Canvas: Edge drag cancelled or target is source/invalid.
+[2025-06-04T13:19:05.6947495] UIController: Canvas click received. Mode: EDGE, Clicked Node: N4
+[2025-06-04T13:19:05.6957469] UIController: First node for edge (click-mode) selected: N4
+[2025-06-04T13:19:06.3047795] Canvas: Started dragging node: N1
+[2025-06-04T13:19:06.3843576] Canvas: Finished dragging node: N1 to (376,8,44,8)
+[2025-06-04T13:19:06.3853747] UIController: Canvas click received. Mode: EDGE, Clicked Node: N1
+[2025-06-04T13:19:09.0804032] GraphManager observed change in Graph: Edge added: Edge{N4 -> N1, w=3.0}
+[2025-06-04T13:19:09.0804032] UIController: Edge created: Edge{N4 -> N1, w=3.0}
+[2025-06-04T13:19:10.1721154] Canvas: Started dragging edge from: N4
+[2025-06-04T13:19:10.2504787] Canvas: Edge drag cancelled or target is source/invalid.
+[2025-06-04T13:19:10.2514841] UIController: Canvas click received. Mode: EDGE, Clicked Node: N4
+[2025-06-04T13:19:10.2524797] UIController: First node for edge (click-mode) selected: N4
+[2025-06-04T13:19:12.0494502] UIController: Mode SELECT_PATH: Click a START node, then an END node.
+[2025-06-04T13:19:12.0514588] UIController: Interaction mode set to: SELECT_PATH
+[2025-06-04T13:19:12.9232371] Canvas: Started dragging node: N4
+[2025-06-04T13:19:13.0242344] Canvas: Finished dragging node: N4 to (272,0,37,6)
+[2025-06-04T13:19:13.0242344] UIController: Canvas click received. Mode: SELECT_PATH, Clicked Node: N4
+[2025-06-04T13:19:13.0252675] UIController: SELECT_PATH - START node selected: N4. Select END node.
+[2025-06-04T13:19:13.9839838] Canvas: Started dragging node: N3
+[2025-06-04T13:19:14.0712361] Canvas: Finished dragging node: N3 to (339,2,307,2)
+[2025-06-04T13:19:14.0712361] UIController: Canvas click received. Mode: SELECT_PATH, Clicked Node: N3
+[2025-06-04T13:19:14.0722362] UIController: SELECT_PATH - END node selected: N3. Calculating path.
+[2025-06-04T13:19:14.0722362] UIController: Calculating shortest path from N4 to N3.
+[2025-06-04T13:19:14.0722362] Calculating shortest path from N4 to N3 using DijkstraStrategy
+[2025-06-04T13:19:14.0722362] Path from N4 to N3 with DijkstraStrategy: [Node{id=4, label='N4'}, Node{id=1, label='N1'}, Node{id=3, label='N3'}]. Cost: 4,00. Time: 0 ms. Graph: 5 nodes, 5 edges.
+[2025-06-08T16:04:03.3216804] Logging strategy changed to: FileLoggingStrategy
+[2025-06-08T16:04:05.3426351] Canvas: Started dragging node: N4
+[2025-06-08T16:04:06.4294224] Canvas: Finished dragging node: N4 to (489,6,337,6)
+[2025-06-08T16:04:07.6725611] Canvas: Started dragging node: N4
+[2025-06-08T16:04:07.7807186] Canvas: Finished dragging node: N4 to (489,6,337,6)
+[2025-06-08T16:04:07.7816362] UIController: Canvas click received. Mode: SELECT_PATH, Clicked Node: N4
+[2025-06-08T16:04:07.7826317] UIController: SELECT_PATH - START node selected: N4. Select END node.
+[2025-06-08T16:04:08.6148977] Canvas: Started dragging node: N2
+[2025-06-08T16:04:08.6950276] Canvas: Finished dragging node: N2 to (488,0,201,6)
+[2025-06-08T16:04:08.6975921] UIController: Canvas click received. Mode: SELECT_PATH, Clicked Node: N2
+[2025-06-08T16:04:08.6995892] UIController: SELECT_PATH - END node selected: N2. Calculating path.
+[2025-06-08T16:04:08.7005914] UIController: Calculating shortest path from N4 to N2.
+[2025-06-08T16:04:08.7015888] Calculating shortest path from N4 to N2 using DijkstraStrategy
+[2025-06-08T16:04:08.7025737] Path from N4 to N2 with DijkstraStrategy: [Node{id=4, label='N4'}, Node{id=2, label='N2'}]. Cost: 5,00. Time: 0 ms. Graph: 4 nodes, 5 edges.
+[2025-06-08T16:04:42.8412802] GraphManager observed change in Graph: Graph cleared
+[2025-06-08T16:04:42.8422755] Error: Start or end node not selected for pathfinding.
+[2025-06-08T16:04:42.8447557] UIController: Graph cleared.
+[2025-06-08T16:05:02.8511764] Application stopping...
